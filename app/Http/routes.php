@@ -14,3 +14,6 @@
 Route::get('/', function () {
     return view('igindex');
 });
+Route::get('/about', function() {
+    return view('igabout');
+});
